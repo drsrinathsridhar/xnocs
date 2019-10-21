@@ -1,5 +1,7 @@
-# CatRecon
-Category-Specific 3D Reconstruction and Camera Pose estimation.
+# About
+Multiview Aggregation for Learning Category-Specific Shape Reconstruction, NeurIPS 2019
+
+Srinath Sridhar, Davis Rempe, Julien Valentin, Sofien Bouaziz, Leonidas J. Guibas
 
 # Pre-requisites
 

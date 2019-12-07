@@ -1,13 +1,25 @@
+# Multiview Aggregation for Learning Category-Specific Shape Reconstruction
+## NeurIPS 2019
+<a href="http://srinathsridhar.com/" target="_blank">Srinath Sridhar</a><sup>1</sup>, <a href="https://davrempe.github.io/" target="_blank">Davis Rempe</a><sup>1</sup>, <a href="https://scholar.google.co.uk/citations?user=pZPD0hMAAAAJ&hl=en" target="_blank">Julien Valentin</a><sup>2</sup>, <a href="http://sofienbouaziz.com/" target="_blank">Sofien Bouaziz</a><sup>2</sup>, <a href="https://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas J. Guibas</a><sup>1,3</sup>
+<br>
+<sup>1</sup><a href="https://www.stanford.edu/" target="_blank">Stanford University</a>, <sup>2</sup><a href="https://vr.google.com/daydream/" target="_blank">Google Inc.</a>, <sup>3</sup><a href="https://research.fb.com/category/facebook-ai-research/" target="_blank">Facebook AI Research</a>
+
+![NOCS Teaser](xnocs.png)
+
 # About
-Multiview Aggregation for Learning Category-Specific Shape Reconstruction, NeurIPS 2019
+This repository contains the code and datasets for the NeurIPS 2019 paper **Multiview Aggregation for Learning Category-Specific Shape Reconstruction**. If you use the code or datasets please cite our paper.
 
-Srinath Sridhar, Davis Rempe, Julien Valentin, Sofien Bouaziz, Leonidas J. Guibas
+```latex
+@InProceedings{xnocs_sridhar2019,
+author = {Sridhar, Srinath and Rempe, Davis and Valentin, Julien and Bouaziz, Sofien and Guibas, Leonidas J.},
+title = {Multiview Aggregation for Learning Category-Specific Shape Reconstruction},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2019}
+}
+```
 
-# Datasets
-
-Coming soon...
-
-# Pre-requisites
+# Code
+I. Download and install the following required packages. We only support Python 3.5+.
 
 - PyTorch 1.0+ (see the [PyTorch website][1] for installation instructions)
 - numpy>=1.15.4
@@ -16,9 +28,23 @@ Coming soon...
 - palettable (`pip install palettable`)
 - [tk3dv][2] (`pip install git+https://github.com/drsrinathsridhar/tk3dv.git`)
 
-[1]: https://pytorch.org/
-[2]: https://github.com/drsrinathsridhar/tk3dv
+II. Download the datasets (see below)
+
+III. Sample training code
+
+``todo``
+
+# Datasets
+
+We provide two datasets: ShapeNetCOCO and ShapeNetPlain. ShapeNetCOCO is the primary dataset of which we demonstrate reconstruction results. ShapeNetPlain is the dataset we use for comparison with 3D-R2N2 and DPC.
+
+Please see the dataset [readme][3] for more details.
 
 # Contact
 
-Srinath Sridhar (`ssrinath@cs.stanford.edu`)
+Srinath Sridhar ([ssrinath@cs.stanford.edu][4])
+
+[1]: https://pytorch.org/
+[2]: https://github.com/drsrinathsridhar/tk3dv
+[3]: dataset/README.md
+[4]: mailto:ssrinath@cs.stanford.edu

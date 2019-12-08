@@ -19,7 +19,7 @@ title = {Multiview Aggregation for Learning Category-Specific Shape Reconstructi
 ```
 
 # Code
-I. Download and install the following required packages. We only support Python 3.5+.
+## 1. Download and install the following required packages. We only support Python 3.5+.
 
 - PyTorch 1.0+ (see the [PyTorch website][1] for installation instructions)
 - numpy>=1.15.4
@@ -28,15 +28,23 @@ I. Download and install the following required packages. We only support Python 
 - palettable (`pip install palettable`)
 - [tk3dv][2] (`pip install git+https://github.com/drsrinathsridhar/tk3dv.git`)
 
-II. Download the datasets (see below)
+## 2. [ Optional ]: Download the datasets (see below for details)
 
-III. Sample training code
+Alternatively, the code will also automatically download.
+
+- [shapenetplain_v1.zip (5 GB)][5]
+- [shapenetcoco_v1.zip (5 GB)][6]
+
+## 3. Sample training code
 
 ``todo``
 
 # Datasets
 
 We provide two datasets: ShapeNetCOCO and ShapeNetPlain. ShapeNetCOCO is the primary dataset of which we demonstrate reconstruction results. ShapeNetPlain is the dataset we use for comparison with 3D-R2N2 and DPC.
+
+- [shapenetplain_v1.zip (5 GB)][5]
+- [shapenetcoco_v1.zip (5 GB)][6]
 
 Please see the dataset [readme][3] for more details.
 
@@ -48,3 +56,5 @@ Srinath Sridhar ([ssrinath@cs.stanford.edu][4])
 [2]: https://github.com/drsrinathsridhar/tk3dv
 [3]: dataset/README.md
 [4]: mailto:ssrinath@cs.stanford.edu
+[5]: http://download.cs.stanford.edu/orion/xnocs/shapenetplain_v1.zip
+[6]: http://download.cs.stanford.edu/orion/xnocs/shapenetcoco_v1.zip

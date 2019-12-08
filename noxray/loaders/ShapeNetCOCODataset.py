@@ -307,17 +307,17 @@ class ShapeNetCOCODataset(CameraDataset.CameraDataset):
     def __init__(self, root, train=True, download=True, transform=None, target_transform=None, trialrun=False,
                  imgSize=(640, 480), limit=None, loadMemory=False, loadMask=False, category='cars', peel=True, small=False):
         self.isSmall = small
-        self.FileName = 'shapenetcoco_dataset_v1.zip'
+        self.FileName = 'shapenetplain_v1.zip'
         if self.isSmall:
             print('[ WARN ]: Using SMALL DATSET. Use only for debugging.')
             self.FileName = 'shapenetcoco_dataset_v1_small.zip'
-        self.DataURL = 'https://storage.googleapis.com/stanford_share/Datasets/shapenetcoco_dataset_v1.zip'
+        self.DataURL = 'http://download.cs.stanford.edu/orion/xnocs/shapenetplain_v1.zip'
         self.LoadMask = loadMask
         self.Category = category
         self.Synsets = {'all' : '**', 'airplanes' : '02691156', 'cars' : '02958343', 'chairs' : '03001627'}
         self.isPeel = peel
         if self.LoadMask:
-            print('[ INFO ]: Loading masks in ShapeNetCOCODataset.')
+            print('[ INFO ]: Loading masks in ShapeNetCOCO dataset.')
         if self.isPeel == False:
             print('[ WARN ]: Depth peeled targets disabled. Will not load NOXRay maps and peeled color.')
 

@@ -1,10 +1,14 @@
+This page contains more information about the two datasets used in the NeurIPS 2019 paper **Multiview Aggregation for Learning Category-Specific Shape Reconstruction**.
+
+![ShapeNetCOCO](xnocs.png)
+
+![ShapeNetPlain](xnocs.png)
+
 # ShapeNetCOCO v1
 
 Download link: [shapenetcoco_v1.zip (172 GB)][1]
 
-This is the shapenetcoco_v1 dataset used in the NeurIPS 2019 paper *Multiview Aggregation for Learning Category-Specific Shape Reconstruction*.
-
-It contains data for ShapeNetCore objects in the following categories:
+ShapeNetCOCO v1 contains data for ShapeNetCore objects in the following categories:
 - Cars (02958343) from ShapeNetCore.v2
 - Airplanes (02691156) from ShapeNetCore.v1
 - Chairs (0301627) from ShapeNetCore.v1
@@ -23,9 +27,7 @@ The camera used to render all images has focal length 617.1 and the camera cente
 
 Download link: [shapenetplain_v1.zip (5 GB)][2]
 
-This is the shapenetplain_v1 dataset used in the NeurIPS 2019 paper “Multiview Aggregation for Learning Category-Specific Shape Reconstruction.”
-
-It contains data for ShapeNetCore objects in the following categories:
+ShapeNetPlain v1 contains data for ShapeNetCore objects in the following categories:
 - Cars (02958343) from ShapeNetCore.v2
 - Airplanes (02691156) from ShapeNetCore.v1
 - Chairs (0301627) from ShapeNetCore.v1

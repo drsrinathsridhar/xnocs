@@ -32,8 +32,8 @@ title = {Multiview Aggregation for Learning Category-Specific Shape Reconstructi
 
 Note: The training code can automatically download the ShapeNetCOCO dataset.
 
-- [shapenetplain_v1.zip (5 GB)][5]
 - [shapenetcoco_v1.zip (172 GB)][6]
+- [shapenetplain_v1.zip (5 GB)][5]
 
 ## 3. Sample code
 

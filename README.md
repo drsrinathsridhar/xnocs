@@ -28,12 +28,12 @@ title = {Multiview Aggregation for Learning Category-Specific Shape Reconstructi
 - palettable (`pip install palettable`)
 - [tk3dv][2] (`pip install git+https://github.com/drsrinathsridhar/tk3dv.git`)
 
-## 2. [ Optional ]: Download the datasets (see below for details)
+## 2. Download the datasets (see below for details)
 
-Alternatively, the code will also automatically download the dataset (only for ShapeNetCOCO).
+Note: The training code can automatically download the ShapeNetCOCO dataset.
 
 - [shapenetplain_v1.zip (5 GB)][5]
-- [shapenetcoco_v1.zip (5 GB)][6]
+- [shapenetcoco_v1.zip (172 GB)][6]
 
 ## 3. Sample training code
 
@@ -44,7 +44,7 @@ Alternatively, the code will also automatically download the dataset (only for S
 We provide two datasets: ShapeNetCOCO and ShapeNetPlain. ShapeNetCOCO is the primary dataset of which we demonstrate reconstruction results. ShapeNetPlain is the dataset we use for comparison with 3D-R2N2 and DPC.
 
 - [shapenetplain_v1.zip (5 GB)][5]
-- [shapenetcoco_v1.zip (5 GB)][6]
+- [shapenetcoco_v1.zip (172 GB)][6]
 
 Please see the dataset [readme][3] for more details.
 

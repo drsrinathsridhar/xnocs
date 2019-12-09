@@ -35,9 +35,21 @@ Note: The training code can automatically download the ShapeNetCOCO dataset.
 - [shapenetplain_v1.zip (5 GB)][5]
 - [shapenetcoco_v1.zip (172 GB)][6]
 
-## 3. Sample training code
+## 3. Sample code
 
-``todo``
+The main training and evaluation code is `noxray/nxm/nxm.py` for the single-view network and `noxray/mv_nxm.py`
+
+To train the single-view network on the cars category in ShapeNetCOCO, use this command:
+
+`python nxm.py --mode train --input-dir <BASE DATASET DIR> --output-dir <BASE OUTPUT DIR> --expt-name XNOCS_SV --category cars --arch SegNetSkip --seed 0 --data-limit <SKIP THIS TO USE FULL DATA> --val-data-limit <SKIP THIS TO USE FULL DATA>`
+
+You can also load the above config from a file using the `@` seperator.
+
+To evaluate the network and write the output images, use this command:
+
+`python nxm.py --mode test --input-dir <BASE DATASET DIR> --output-dir <BASE OUTPUT DIR> --expt-name XNOCS_SV --category cars --arch SegNetSkip --seed 0 --val-data-limit <SKIP THIS TO USE FULL DATA>`
+
+The multi-view network commands are very similar to the above.
 
 # Datasets
 

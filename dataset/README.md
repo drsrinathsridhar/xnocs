@@ -16,9 +16,9 @@ ShapeNetCOCO v1 contains data for ShapeNetCore objects in the following categori
 Each ShapeNet model is rendered at 640x480 from 20 different views sampled at a random distance from the object. The background of each RGB rendering (for the first intersection in the depth peeling) is a random image from the COCO dataset. Lights in the scene are placed with respect to the camera for each view, so shading between views is not identical. The data is split into a train and test split by shapes.
 
 Each model directory contains the following files for each view:
-- CameraPose.json : contains the camera position and rotation quaternion in world coordinates from the Unity game engine. The ShapeNet model is placed at (0, 0, 0) in world coordinates for every render.
-- Color_00.png and Color_01.png : contain the RGB renderings for the first and last intersection in the depth peeling, respectively.
-- NOXRayTL_00.png and NOXRayTL_01.png : contain the NOCS maps for the first and last intersection in the depth peeling, respectively.
+- **CameraPose.json**: contains the camera position and rotation quaternion in world coordinates from the Unity game engine. The ShapeNet model is placed at (0, 0, 0) in world coordinates for every render.
+- **Color_00.png and Color_01.png**: contain the RGB renderings for the first and last intersection in the depth peeling, respectively.
+- **NOXRayTL_00.png and NOXRayTL_01.png**: contain the NOCS maps for the first and last intersection in the depth peeling, respectively.
 
 The camera used to render all images has focal length 617.1 and the camera center (c_x, c_y) is (315, 242).
 
@@ -35,9 +35,9 @@ ShapeNetPlain v1 contains data for ShapeNetCore objects in the following categor
 Each ShapeNet model is rendered at 640x480 from 5 different views sampled at a fixed distance from the object. The background of each RGB rendering is plain white. Lights in the scene are placed with respect to the camera for each view, so shading between views is not identical. The data is split into a train and test split by shapes.
 
 Each model directory contains the following files for each view:
-- CameraPose.json : contains the camera position and rotation quaternion in world coordinates from the Unity game engine.  The ShapeNet model is placed at (0, 0, 0) in world coordinates for every render.
-- Color_00.png and Color_01.png : contain the RGB renderings for the first and last intersection in the depth peeling, respectively.
-- NOXRayTL_00.png and NOXRayTL_01.png : contain the NOCS maps for the first and last intersection in the depth peeling, respectively.
+- **CameraPose.json**: contains the camera position and rotation quaternion in world coordinates from the Unity game engine.  The ShapeNet model is placed at (0, 0, 0) in world coordinates for every render.
+- **Color_00.png and Color_01.png**: contain the RGB renderings for the first and last intersection in the depth peeling, respectively.
+- **NOXRayTL_00.png and NOXRayTL_01.png**: contain the NOCS maps for the first and last intersection in the depth peeling, respectively.
 
 The camera used to render all images has focal length 617.1 and the camera center (c_x, c_y) is (315, 242).
 

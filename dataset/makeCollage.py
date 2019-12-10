@@ -68,7 +68,10 @@ if __name__ == '__main__':
         random.shuffle(DirList)
 
         for Type in ImTypes:
+            print('[ INFO ]: Operating on {}.'.format(Type))
             for i in range(0, Args.num_views): # For each collage image
+                print('[ INFO ]: View {}.'.format(i))
+                sys.stdout.flush()
                 ImageList = []
                 for j in range(0, Args.num_models):
                     ImPath = os.path.join(DirList[j], 'frame_{}_{}.png'.format(str(i).zfill(8), Type))

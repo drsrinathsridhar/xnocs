@@ -29,7 +29,7 @@ The camera used to render all images has focal length 617.1 and the camera cente
 
 Download link: [shapenetplain_v1.zip (5 GB)][2]
 
-[![ShapeNetCOCO v1](https://img.youtube.com/vi/VxgwZfxvPlM/0.jpg)](https://www.youtube.com/watch?v=VxgwZfxvPlM "ShapeNetCOCO v1")
+[![ShapeNetPlain v1](https://img.youtube.com/vi/8KKyGX_boCU/0.jpg)](https://www.youtube.com/watch?v=8KKyGX_boCU "ShapeNetPlain v1")
 
 ShapeNetPlain v1 contains data for ShapeNetCore objects in the following categories:
 - Cars (02958343) from ShapeNetCore.v2

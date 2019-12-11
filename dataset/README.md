@@ -8,6 +8,8 @@ This page contains more information about the two datasets used in the NeurIPS 2
 
 Download link: [shapenetcoco_v1.zip (172 GB)][1]
 
+[![ShapeNetCOCO v1](https://img.youtube.com/vi/VxgwZfxvPlM/0.jpg)](https://www.youtube.com/watch?v=VxgwZfxvPlM "ShapeNetCOCO v1")
+
 ShapeNetCOCO v1 contains data for ShapeNetCore objects in the following categories:
 - Cars (02958343) from ShapeNetCore.v2
 - Airplanes (02691156) from ShapeNetCore.v1
@@ -26,6 +28,8 @@ The camera used to render all images has focal length 617.1 and the camera cente
 # ShapeNetPlain v1
 
 Download link: [shapenetplain_v1.zip (5 GB)][2]
+
+[![ShapeNetCOCO v1](https://img.youtube.com/vi/VxgwZfxvPlM/0.jpg)](https://www.youtube.com/watch?v=VxgwZfxvPlM "ShapeNetCOCO v1")
 
 ShapeNetPlain v1 contains data for ShapeNetCore objects in the following categories:
 - Cars (02958343) from ShapeNetCore.v2

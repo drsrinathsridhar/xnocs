@@ -1,9 +1,5 @@
 This page contains more information about the two datasets used in the NeurIPS 2019 paper **Multiview Aggregation for Learning Category-Specific Shape Reconstruction**.
 
-![ShapeNetCOCO](xnocs.png)
-
-![ShapeNetPlain](xnocs.png)
-
 # ShapeNetCOCO v1
 
 Download link: [shapenetcoco_v1.zip (172 GB)][1]

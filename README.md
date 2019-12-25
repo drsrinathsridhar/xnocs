@@ -50,7 +50,7 @@ You can also load the above config from a file using the `@` seperator.
 To evaluate the network and write the output images, use this command:
 
 ```
-python nxm.py --mode test --input-dir <BASE DATASET DIR> --output-dir <BASE OUTPUT DIR> --expt-name XNOCS_SV --category cars --arch SegNetSkip --seed 0 --val-data-limit <SKIP THIS TO USE FULL DATA>
+python nxm.py --mode val --input-dir <BASE DATASET DIR> --output-dir <BASE OUTPUT DIR> --expt-name XNOCS_SV --category cars --arch SegNetSkip --seed 0 --val-data-limit <SKIP THIS TO USE FULL DATA>
 ```
 
 The multi-view network commands are very similar to the above.

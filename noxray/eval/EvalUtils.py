@@ -20,7 +20,7 @@ def nocs2pc(nocs_list):
         ''' Turns a tuple of NOCS maps into a combined point cloud '''
         nocs_pc = []
         for nocs_map in nocs_list:
-            nocs = ds.NOCSMap3D(nocs_map)
+            nocs = ds.NOCSMap(nocs_map)
             nocs_pc.append(nocs.Points)
         nocs_pc = np.concatenate(nocs_pc, axis=0)
         return nocs_pc

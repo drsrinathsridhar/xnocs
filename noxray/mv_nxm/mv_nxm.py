@@ -195,7 +195,7 @@ def main(Args):
 
         if Config.Args.dataset == 'MShapeNetCOCODataset':
             ValData = MSNCD(root=NOCSNet.Config.Args.input_dir, train=ValOnTrain, download=True
-                                                      , limit=DataLimit, category=Config.Args.category, loadMask=Config.WithMask, imgSize=Config.ImageSize, small=Config.Args.use_small_dataset
+                                                      , limit=ValDataLimit, category=Config.Args.category, loadMask=Config.WithMask, imgSize=Config.ImageSize, small=Config.Args.use_small_dataset
                                                                 , setSize=Config.Args.set_size, isVariableSetSize=False)
             if Config.WithMask == False:
                 print('[ INFO ]: Using L2Loss function.')

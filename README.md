@@ -45,13 +45,15 @@ To train the single-view network on the cars category in ShapeNetCOCO, use this 
 python nxm.py --mode train --input-dir <BASE DATASET DIR> --output-dir <BASE OUTPUT DIR> --expt-name XNOCS_SV --category cars --arch SegNetSkip --seed 0 --data-limit <SKIP THIS TO USE FULL DATA> --val-data-limit <SKIP THIS TO USE FULL DATA>
 ```
 
-You can also load the above config from a file using the `@` seperator.
+You can also load the above config from a file using the `@` seperator. Note: in the paper we use `--learning-rate 0.0001` and `--batch-size 1`. The code is not well-tested with larger batch sizes and there have been reported issues with doing so. For reference, when using the ShapeNetPlain dataset in the paper we train for `--epochs 100` which takes just over 1 day for both the Cars and Airplanes categories (NVIDIA V100 GPU). Training on ShapeNetCOCO is considerably slower.
 
 To evaluate the network and write the output images, use this command:
 
 ```
-python nxm.py --mode val --input-dir <BASE DATASET DIR> --output-dir <BASE OUTPUT DIR> --expt-name XNOCS_SV --category cars --arch SegNetSkip --seed 0 --val-data-limit <SKIP THIS TO USE FULL DATA>
+python nxm.py --mode val --input-dir <BASE DATASET DIR> --output-dir <BASE OUTPUT DIR> --expt-name XNOCS_SV --category cars --arch SegNetSkip --seed 0 --test-samples 1000000
 ```
+
+Note: the batch size is currently hard-coded to 1 for evaluation.
 
 The multi-view network commands are very similar to the above.
 

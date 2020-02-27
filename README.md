@@ -40,7 +40,7 @@ Note: The training code can automatically download the ShapeNetCOCO dataset. **P
 These are weights trained on the ShapeNetCOCO dataset and reported in Table 2 in the paper.
 
 - [Single View Network (1 GB)][7]
-- [Multi-view Network with Permutation Equivariant layers (1 GB)][8]
+- [Multi-view Network (upto 5 views) with Permutation Equivariant layers (1 GB)][8]
 
 ## 4. Sample code
 

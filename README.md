@@ -39,10 +39,10 @@ Note: The training code can automatically download the ShapeNetCOCO dataset. **P
 
 These are weights trained on the ShapeNetCOCO dataset and reported in Table 2 in the paper.
 
-- [Single View Network][7]
-- [Multi-view Network with Permutation Equivariant layers][8]
+- [Single View Network (1 GB)][7]
+- [Multi-view Network with Permutation Equivariant layers (1 GB)][8]
 
-## 3. Sample code
+## 4. Sample code
 
 The main training and evaluation code is `noxray/nxm/nxm.py` for the single-view network and `noxray/mv_nxm.py`
 
@@ -68,8 +68,8 @@ The multi-view network commands are very similar to the above.
 
 We provide two datasets: ShapeNetCOCO and ShapeNetPlain. ShapeNetCOCO is the primary dataset of which we demonstrate reconstruction results. ShapeNetPlain is the dataset we use for comparison with 3D-R2N2 and DPC.
 
-- [shapenetplain_v1.zip (5 GB)][5]
 - [shapenetcoco_v1.zip (172 GB)][6]
+- [shapenetplain_v1.zip (5 GB)][5]
 
 **Please see the dataset [readme][3] for more details.**
 

@@ -35,6 +35,13 @@ Note: The training code can automatically download the ShapeNetCOCO dataset. **P
 - [shapenetcoco_v1.zip (172 GB)][6]
 - [shapenetplain_v1.zip (5 GB)][5]
 
+## 3. Download the trained weights
+
+These are weights trained on the ShapeNetCOCO dataset and reported in Table 2 in the paper.
+
+- [Single View Network][7]
+- [Multi-view Network with Permutation Equivariant layers][8]
+
 ## 3. Sample code
 
 The main training and evaluation code is `noxray/nxm/nxm.py` for the single-view network and `noxray/mv_nxm.py`
@@ -76,3 +83,5 @@ Srinath Sridhar ([ssrinath@cs.stanford.edu][4])
 [4]: mailto:ssrinath@cs.stanford.edu
 [5]: http://download.cs.stanford.edu/orion/xnocs/shapenetplain_v1.zip
 [6]: http://download.cs.stanford.edu/orion/xnocs/shapenetcoco_v1.zip
+[7]: http://download.cs.stanford.edu/orion/xnocs/single_view_shapenet_coco_weights.zip
+[8]: http://download.cs.stanford.edu/orion/xnocs/multi_view_5views_variable_shapenet_coco_weights.zip
